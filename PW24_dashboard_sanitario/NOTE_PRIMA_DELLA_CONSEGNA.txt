@@ -1,8 +1,0 @@
-NOTE PRIMA DELLA CONSEGNA
-
-1. I dati del file data/monitoraggio_panflu_demo.csv sono simulati: non rappresentano dati reali o valori ufficiali di scorta.
-2. La mini-dashboard è ispirata ai requisiti PANFLU/S.A.S.H.A., ma non implementa i flussi SMAF/PANFLU reali né un'integrazione con sistemi regionali.
-3. Le quantità minime nel dataset sono valori dimostrativi. Nel processo reale sono definite a livello regionale per ente e dispositivo e aggiornate periodicamente.
-4. Avviare l'app con `streamlit run app.py`, testare i filtri e acquisire schermate reali da inserire nella relazione.
-5. Non inventare risultati di test o URL di repository: inserire solo quanto effettivamente verificato.
-6. Verificare la versione finale con la traccia PW24 e con le indicazioni del tutor prima dell'invio.
