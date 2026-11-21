@@ -25,9 +25,3 @@ streamlit run app.py
 
 ## Limiti importanti
 Questo è un prototipo autonomo: **non** implementa il flusso SMAF/PANFLU reale, non si integra con S.A.S.H.A. o sistemi regionali, non gestisce utenti e permessi, né tracciabilità per lotto e data di scadenza. Le scorte minime ufficiali devono essere caricate da una fonte autorizzata e validata. Le previsioni e le stime non devono essere usate per decisioni operative.
-
-## Prima della consegna
-- Eseguire l’app e verificare filtri, grafici, download e previsioni.
-- Inserire nella relazione schermate realmente acquisite e risultati osservati.
-- Verificare le istruzioni e la conformità alla traccia ufficiale Pegaso.
-- Creare eventualmente una repository remota e inserire solo il link reale.
