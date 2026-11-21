@@ -1,0 +1,8 @@
+NOTE
+1. I dati del file data/monitoraggio_panflu_demo.csv sono simulati: non rappresentano dati reali o valori ufficiali di scorta.
+2. La mini-dashboard è ispirata ai requisiti PANFLU/S.A.S.H.A., ma non implementa i flussi SMAF/PANFLU reali né un'integrazione con sistemi regionali.
+3. Le quantità minime nel dataset sono valori dimostrativi. Nel processo reale sono definite a livello regionale per ente e dispositivo e aggiornate periodicamente.
+4. Avviare l'app dalla cartella PW24_dashboard_sanitario con `streamlit run app.py` (dopo `pip install -r requirements.txt`).
+5. I file data/domanda_storica.csv e data/parametri_scorte.csv (dati sintetici) alimentano la scheda "Articoli e parametri" (4 articoli). I tre CSV sono validati all'avvio: in caso di errore compare un messaggio in italiano.
+6. Lo slider "Intensità stagionalità" applica indici stagionali stimati dallo storico (neutro a 0). La colonna mesi_stagionali dei parametri è letta come moltiplicatore dell'intensità per articolo. Variazione simulata e stagionalità influenzano sia le previsioni sia le componenti di scorta.
+7. Versioni testate: Python 3.14.2, Streamlit 1.67.0, pandas 3.1.1, numpy 2.5.5, plotly 7.1.0.
